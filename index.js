@@ -1,4 +1,5 @@
 'use strict';
+
 var LocalCache = require('streaming-cache');
 var axon = require('axon');
 var HelloSocket = require('./lib/hello-socket');
