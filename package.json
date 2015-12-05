@@ -1,0 +1,24 @@
+{
+  "name": "distributed-cache",
+  "version": "0.0.1",
+  "description": "A distributed memory cache, aimed at high speed and flexibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "cache",
+    "lru",
+    "distributed"
+  ],
+  "author": "Laurent Zuijdwijk",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "axon": "^2.0.2",
+    "ip": "^1.1.0",
+    "streaming-cache": "^0.1.3"
+  }
+}
