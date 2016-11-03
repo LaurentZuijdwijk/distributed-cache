@@ -1,7 +1,7 @@
 var Cache = require('./index.js');
 
-var cache = new Cache({ports : [8123, 8124, 8125]});
-
+var cache = new Cache();
+var key = process.argv[2] || 'aaa' 
 setInterval(function(){
-	cache.setData('aaa', 'hththdhdrhdrhdrhxghvmguylgyjrqwd§aczxfbfjdtjdrthdcdfgzed')
+	cache.setData(key, new Buffer(1000000))
 }, 1000)
